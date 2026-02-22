@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevQuiz</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Quiz interativo para DEVs</h1>
         <p>Teste seus conhecimentos em programação e confira sua pontuação</p>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="intro">
             <!-- Introdução -->
             <h2>Sobre esse quiz</h2>
             <p><strong>Esse quiz</strong> foi desenvolvido para testar os seus <em>conhecimentos em linguagens</em>, seu perfil profissional </p>
@@ -20,7 +21,8 @@
         </section>
 
         <!-- Pergunta 01: múltipla escolha -->
-        <section>
+        <fieldset>
+            <section>
             <h2>Pergunta 01</h2>
             <p>Qual é a linguagem usada para estruturar páginas web?</p>
             <form>
@@ -111,6 +113,8 @@
                 </figure>
                 <input type="text" id="p08" name="pergunta08" placeholder="Digite sua resposta">
              </section>
+        </fieldset>
+        
 
         <!-- Tabela de pontuação -->
         <section>
@@ -182,12 +186,13 @@
 
                 <label for="comentarios">Comentários:</label><br>
                 <!-- Tag textarea cria uma seção específica para comentários -->
-                <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea><br>
+                <button onclick="alert('FEEDBACK ENVIADO!')">Enviar</button>
             </form>
             </fieldset>
           </section>
     </main>
-    <footer>
+    <footer class="footer">
         <h1>DevQuiz!</h1>
         <!-- & comercial, adiciona simbolos -->
         <p>&copy Todos os direitos reservados</p>
