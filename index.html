@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site</title>
+    <title>DevQuiz</title>
 </head>
 <body>
     <header>
@@ -21,9 +21,46 @@
 
         <!-- Pergunta 01: múltipla escolha -->
         <section>
-            <h2>Pergunta 01:</h2>
+            <h2>Pergunta 01</h2>
             <p>Qual é a linguagem usada para estruturar páginas web?</p>
+            <form>
+                <input type="radio" value="Python" id="p1a" name="pergunta01">
+                <label for="p1a">Python</label><br>
+
+                <input type="radio" value="HTML" id="p1b" name="pergunta01">
+                <label for="p1b">HTML</label><br>
+
+                <input type="radio" value="JavaScript" id="p1c" name="pergunta01">
+                <label for="p1c">JavaScript</label><br>
+                
+                <input type="radio" value="Ruby" id="p1d" name="pergunta01">
+                <label for="p1d">Ruby</label><br>
+            </form>
         </section>
+        <!-- Pergunta 02: tipo text -->
+        <section>
+            <h2>Pergunta 02</h2>
+            <p>O que significa o acrônimo API?</p>
+            <input type="text" id="p2" name="pergunta02" placeholder="Digite sua resposta">
+        </section>
+        <!-- Pergunta 03: senha -->
+         <section>
+            <h2>Pergunta 03</h2>
+            <p>Escreva um exemplo de senha forte</p>
+            <form>
+                <input type="password" id="p3" name="pergunta03" placeholder="Digite a senha">
+            </form>
+         </section>
+         <!-- Pergunta 04: data -->
+         <section>
+            <h2>Pergunta 04</h2>
+            <p>Em que ano o Javascript foi lançado?</p>
+            <form>
+                <input type="date" id="p4" name="pergunta04">
+            </form>
+         </section>
+         <!-- Pergunta 05: seleção múltipla -->
+          
     </main>
     <footer>
 
