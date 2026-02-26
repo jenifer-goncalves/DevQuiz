@@ -97,4 +97,4 @@ Sinta-se à vontade para sugerir melhorias! 💜
 
 ## 👩‍💻 Autora
 
-Feito com dedicação por **Jenifer** ✨
+Desenvolvido por **Jenifer** – sinta-se à vontade para entrar em contato!
