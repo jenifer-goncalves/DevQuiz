@@ -1,6 +1,6 @@
 # 🧠 DevQuiz
 
-O **DevQuiz** é um quiz interativo de navegador feito para testar seus conhecimentos em programação 💻.
+O **DevQuiz** é um quiz interativo de navegador feito para testar seus conhecimentos em programação.
 Ele aborda temas como HTML, CSS, Java, SQL e conceitos de banco de dados, com diferentes tipos de perguntas e interação.
 
 ---
