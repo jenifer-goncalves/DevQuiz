@@ -10,7 +10,7 @@ Ele aborda temas como HTML, CSS, Java, SQL e conceitos de banco de dados, com di
 O projeto oferece diversas interações:
 
 * 🎯 **10 perguntas interativas** sobre programação
-* 🧩 Diferentes tipos de campos:
+* Diferentes tipos de campos:
 
   * múltipla escolha
   * texto
@@ -33,7 +33,7 @@ O quiz inclui perguntas sobre:
 * 🌐 HTML e estrutura de páginas
 * 🎨 CSS e estilização
 * ☕ Java e orientação a objetos
-* 🗄️ Banco de dados e SQL
+* Banco de dados e SQL
 * 🔐 Segurança e boas práticas
 
 ---
@@ -95,6 +95,6 @@ Sinta-se à vontade para sugerir melhorias! 💜
 
 ---
 
-## 👩‍💻 Autora
+## 👤 Autor
 
 Desenvolvido por **Jenifer** – sinta-se à vontade para entrar em contato!
