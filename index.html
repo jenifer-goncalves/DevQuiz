@@ -42,7 +42,7 @@
         <!-- Pergunta 02: tipo text -->
         <section>
             <h2>Pergunta 02</h2>
-            <p>O que significa o acrônimo API?</p>
+            <p>Em Java, qual palavra-chave é usada para herança?</p>
             <form>
                 <input type="text" id="p2" name="pergunta02" placeholder="Digite sua resposta">
             </form>
@@ -115,27 +115,57 @@
             </figure>
                 <input type="text" id="p08" name="pergunta08" placeholder="Digite sua resposta">
         </section>
+        <!-- Pergunta 09: Resposta dissertativa -->
+        <section>
+            <h2>Pergunta 09</h2>
+            <p>No SQL, qual comando é usado para buscar dados?</p>
+            <form>
+                <input type="text" id="p9" name="pergunta09" placeholder="Digite sua resposta">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 10</h2>
+            <p>Em bancos de dados relacionais, o que é uma chave primária (Primary Key)?</p>
+            <form>
+                <input type="radio" id="p10a" name="pergunta10">
+                <label for="p10a">Um campo opcional</label><br>
+
+                <input type="radio" id="p10b" name="pergunta10">
+                <label for="p10b">Um campo que pode ter valores duplicados</label><br>
+                
+                <input type="radio" id="p10c" name="pergunta10">
+                <label for="p10c">Um campo que identifica unicamente cada registro</label><br>
+                
+                <input type="radio" id="p10d" name="pergunta10">
+                <label for="p10d">Um campo usado apenas para ordenação</label><br>
+
+
+            </form>
+        </section>
+
 
              <!-- Lista de respostas -->
-        <section>
+        <section class="anwsers">
             <h2>Verifique suas respostas</h2>
             <details>
                 <summary>Clique aqui para conferir as respostas do quiz!</summary>
                 <ol>
                 <li>HTML</li>
-                <li></li>
+                <li>extends</li>
                 <li>Senha com letras, números, caracteres especiais</li>
-                <li></li>
+                <li>4 de dezembro de 1995</li>
                 <li>Javascript, Java & Python</li>
                 <li>O arquivo deve ter extensão HTML</li>
                 <li>type</li>
                 <li>Logotipo: Java</li>
+                <li>Select</li>
+                <li>Um campo que identifica unicamente cada registro</li>
             </ol>
             </details>
         </section>
         
         <!-- Tabela de pontuação -->
-        <section>
+        <section class="score">
             <h2>Tabela de Pontuação</h2>
             <table border="1">
                 <thead>
@@ -190,7 +220,9 @@
                 <label for="comentarios">Comentários:</label><br>
                 <!-- Tag textarea cria uma seção específica para comentários -->
                 <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea><br>
-                <button onclick="alert('FEEDBACK ENVIADO!')">Enviar</button>
+                <div class="container_button">
+                    <button onclick="alert('FEEDBACK ENVIADO!')">Enviar</button>
+                </div>
             </form>
             </fieldset>
         </section>

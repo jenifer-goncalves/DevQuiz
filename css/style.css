@@ -8,14 +8,14 @@
 }
 
 .header, .footer{
-    background-color: #012c4e;
+    background-color: #622347;
     padding: 3rem;
     text-align: center;
     font-family: "Cascadia Mono", sans-serif;
 }
 
 .header h1, .footer h1{
-    color: #ead292;
+    color: #e99856;
     margin-bottom: 10px;
 }
 
@@ -35,10 +35,12 @@
 
 .intro{
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .intro h2{
     font-size: 2rem;
+    color: #a54055;
 }
 
 section{
@@ -56,7 +58,7 @@ section{
 }
 
 .quiz h2{
-    color: #012c4e;
+    color: #a54055;
 }
 
 .quiz [type="text"], .quiz [type="password"], .quiz [type="date"], .quiz [type="email"]{
@@ -68,28 +70,36 @@ section{
 }
 
 .quiz [type="radio"], .quiz [type="checkbox"]{
-    accent-color: #012c4e;
+    accent-color: #e99856;
+}
+
+.anwsers h2{
+    text-align: center;
 }
 
 details{
-    background-color: #012c4e;
+    background-color: #622347;
     color: #ffffff;
     padding: 1rem;
     border-radius: 10px;
 }
 
 summary{
-    color: #ead292;
+    color: #e99856;
     margin: 0.5rem;
     cursor: pointer;
 }
 
 ol{
-    margin: 1rem;
+    margin: 2rem;
 }
 
 ol li{
     padding: 0.2rem;
+}
+
+.score h2{
+    text-align: center;
 }
 
 
@@ -100,8 +110,8 @@ table{
 }
 
 th{
-    background-color: #012c4e;
-    color: #ead292;
+    background-color: #e99856;
+    color: #622347;
     padding: 1rem;
 }
 
@@ -111,7 +121,7 @@ td{
 }
 
 .feedback{
-    border: 2px solid #012c4e;
+    border: 2px solid #e99856;
     border-radius: 15px;
     padding: 1rem;
 }
@@ -120,17 +130,24 @@ td{
     width: 100%;
     border-radius: 15px;
     padding: 15px;
-    border: 1px solid #012c4e;
+    border: 1px solid #e99856;
+}
+
+.container_button{
+    display: flex;
+    justify-content: center;
 }
 
 
 button{
     margin: 10px;
-    background-color: #ead292;
+    background-color: #622347;
     border-radius: 15px;
     padding: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: 1px solid;
+    font-size: 1rem;
+    width: 250px;
 }
 
 img{
