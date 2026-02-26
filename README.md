@@ -1,118 +1,100 @@
-\# 🧠 DevQuiz
+# 🧠 DevQuiz
 
-Quiz interativo para programadores, desenvolvido com HTML e CSS, com o objetivo de testar conhecimentos em desenvolvimento web, linguagens de programação e banco de dados.
+O **DevQuiz** é um quiz interativo de navegador feito para testar seus conhecimentos em programação 💻.
+Ele aborda temas como HTML, CSS, Java, SQL e conceitos de banco de dados, com diferentes tipos de perguntas e interação.
 
-\---
+---
 
-\#\# 📌 Sobre o projeto
+## ✨ Funcionalidades
 
-O \*\*DevQuiz\*\* é uma aplicação web simples e interativa que apresenta 10 perguntas sobre programação, abordando temas como:
+O projeto oferece diversas interações:
 
-\- HTML e CSS  
-\- Java  
-\- SQL  
-\- Conceitos de banco de dados  
-\- Boas práticas em tecnologia
+* 🎯 **10 perguntas interativas** sobre programação
+* 🧩 Diferentes tipos de campos:
 
-Ao final, o usuário pode conferir suas respostas e comparar com o gabarito.
+  * múltipla escolha
+  * texto
+  * senha
+  * data
+  * checkbox
+  * upload de arquivo
+  * menu suspenso
+* 📊 **Tabela de pontuação** para avaliar seu desempenho
+* 📖 **Seção de respostas** para conferência
+* 💌 **Formulário de feedback** para o usuário
+* 🎨 Interface estilizada com CSS moderno
 
-\---
+---
 
-\#\# 🚀 Funcionalidades
+## 🧠 Conteúdos abordados
 
-\- ✅ Quiz com 10 perguntas  
-\- ✅ Diferentes tipos de input:  
-  \- múltipla escolha  
-  \- texto  
-  \- senha  
-  \- data  
-  \- checkbox  
-  \- upload de arquivo  
-  \- select (menu suspenso)  
-\- ✅ Seção para visualizar respostas corretas  
-\- ✅ Tabela de pontuação  
-\- ✅ Formulário de feedback  
-\- ✅ Layout estilizado com CSS  
-\- ✅ Design responsivo básico
+O quiz inclui perguntas sobre:
 
-\---
+* 🌐 HTML e estrutura de páginas
+* 🎨 CSS e estilização
+* ☕ Java e orientação a objetos
+* 🗄️ Banco de dados e SQL
+* 🔐 Segurança e boas práticas
 
-\#\# 🛠️ Tecnologias utilizadas
+---
 
-\- HTML5  
-\- CSS3  
-\- Google Fonts
+## 📁 Estrutura do Projeto
 
-\---
-
-\#\# 📁 Estrutura do projeto
-
-DEVQUIZ/  
-│  
-├── assets/  
-│ └── logo\_java.png  
-│  
-├── css/  
-│ └── style.css  
-│  
+DEVQUIZ/
+│
+├── assets/
+│   └── logo_java.png
+│
+├── css/
+│   └── style.css
+│
 └── index.html
 
-\---
+---
 
-\#\# ▶️ Como executar o projeto
+## ▶️ Como executar
 
-Você pode rodar o projeto de forma simples:
+Para rodar o projeto localmente:
 
-1\. Faça o download ou clone este repositório  
-2\. Abra a pasta do projeto  
-3\. Dê dois cliques no arquivo \`index.html\`
+1. Baixe ou clone este repositório
+2. Abra a pasta do projeto
+3. Clique duas vezes no arquivo **index.html**
 
-Ou abra com a extensão \*\*Live Server\*\* no VS Code.
+Ou utilize a extensão **Live Server** no VS Code.
 
-\---
+---
 
-\#\# 📷 Preview do projeto
+## 📊 Sistema de Pontuação
 
-\*(Você pode adicionar aqui um print do seu site depois de hospedado ou rodando localmente)\*
+| Pontuação | Avaliação           |
+| --------- | ------------------- |
+| 0 – 2     | 😅 Não desista!     |
+| 3 – 4     | 📚 Precisa melhorar |
+| 5 – 7     | 👍 Bom conhecimento |
+| 8         | 🏆 Perfeito!        |
 
-\---
+---
 
-\#\# 📊 Sistema de pontuação
+## 🚀 Melhorias futuras
 
-| Pontuação | Avaliação |  
-|----------|----------|  
-| 0–2 | Não desista\! |  
-| 3–4 | Você ainda precisa melhorar |  
-| 5–7 | Seu conhecimento está satisfatório |  
-| 8 | Perfeito\! Continue assim |
+Ideias para evoluir o projeto:
 
-\---
+* [ ] Correção automática com JavaScript
+* [ ] Cálculo de pontuação dinâmica
+* [ ] Armazenamento de resultados
+* [ ] Animações e transições
+* [ ] Responsividade mobile aprimorada
+* [ ] Modo escuro 🌙
 
-\#\# ✨ Melhorias futuras
+---
 
-Algumas melhorias que podem ser implementadas:
+## 💌 Feedback
 
-\- \[ \] Validação automática das respostas com JavaScript  
-\- \[ \] Cálculo automático da pontuação  
-\- \[ \] Armazenamento de resultados  
-\- \[ \] Animações e feedback visual  
-\- \[ \] Versão mobile mais refinada  
-\- \[ \] Modo escuro 🌙
+O projeto possui um formulário para envio de feedback dos usuários.
+Sinta-se à vontade para sugerir melhorias! 💜
 
-\---
+---
 
-\#\# 💌 Feedback
+## 👩‍💻 Autora
 
-O projeto conta com um formulário de feedback onde usuários podem enviar sugestões e comentários.
-
-\---
-
-\#\# 📄 Licença
-
-Este projeto é de uso livre para fins educacionais.
-
-\---
-
-\#\# 👩‍💻 Autora
-
-Desenvolvido por \*\*Jenifer\*\* – sinta-se à vontade para entrar em contato\!    
+Feito com dedicação por **Jenifer** ✨
